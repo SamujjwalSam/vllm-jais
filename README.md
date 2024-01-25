@@ -20,9 +20,11 @@ Easy, fast, and cheap LLM serving for everyone
 This is a fork of the vLLM repo to add support for Jais.
 </h3>
 
+Please use the `jais` branch for the Jais support. The current code only works with **`vLLM 0.2.1-post1`**`.
+
 ## ** Limitations: **
 1. Tested only with `13b` and `30b` models
-2. Works only with vLLM "0.2.1-post1" tag
+2. Works only with **`vLLM 0.2.1-post1`**` tag
 3. `13b` can only be used on a single GPU due to non-divisibility of FF layer dim
 4. `30b` can only be used either on a single GPU or two GPUs due to non-divisibility of FF layer dim
 5. Need to modify the config.json file to add extra attributes
